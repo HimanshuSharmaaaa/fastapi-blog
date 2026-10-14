@@ -19,8 +19,7 @@ from config import settings
 from database import engine, get_db
 from routers import comments, posts, users, sidebar
 
-from fastapi.responses import JSONResponse  
-from slowapi.errors import RateLimitExceeded
+
 
 
 @asynccontextmanager
