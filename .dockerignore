@@ -1,0 +1,11 @@
+.git/
+.env
+env.yaml
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+tests/
+populate_images/
+*.db
+.pytest_cache/
